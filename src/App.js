@@ -1,9 +1,13 @@
 import "./App.css";
-
+import Header from "./Komponente/Header.jsx";
+import Test from "./Komponente/Test.jsx";
 function App() {
   return (
     <div className="App">
-      <div>Test</div>
+      <div>
+        <Header />
+        <Test />
+      </div>
     </div>
   );
 }

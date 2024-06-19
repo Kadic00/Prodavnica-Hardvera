@@ -1,0 +1,32 @@
+.Header {
+  background-color: lightblue;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.Header-Ostalo {
+  margin-right: 10px;
+  display: flex;
+}
+.Logo {
+  display: flex;
+}
+.Logo img {
+  width: 220px;
+  margin-left: 0px;
+}
+.Naziv-Sajta {
+  margin-left: 10%;
+  font-size: large;
+}
+.Header-Ostalo div {
+  margin-right: 5%;
+  margin: 3%;
+  font-size: 70px;
+}
+.Tekst-Pocetak {
+  background-color: grey;
+  height: 300px;
+  text-align: center;
+  font-size: 30px;
+}
