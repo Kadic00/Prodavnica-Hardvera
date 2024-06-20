@@ -1,0 +1,33 @@
+.Proizvodi {
+  background-color: red;
+  height: 600px;
+}
+.Filter {
+  display: flex;
+  justify-content: space-between;
+}
+.Kartica img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Kartica {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  margin: 10px;
+}
+
+.Krt {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: #ddd;
+}
