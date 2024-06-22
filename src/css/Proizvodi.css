@@ -1,10 +1,11 @@
 .Proizvodi {
   background-color: red;
-  height: 600px;
+  height: 800px;
 }
 .Filter {
   display: flex;
   justify-content: space-between;
+  padding-top: 2%;
 }
 .Kartica img {
   width: 100%;
@@ -25,9 +26,24 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
-
   max-width: 90%;
-  margin: 0 auto;
+  margin: 2% auto;
   background-color: #ddd;
+  max-height: 90%;
+}
+.Stranica {
+  background-color: lightblue;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border-radius: 50%;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.Str {
+  display: flex;
+  justify-content: center;
 }
